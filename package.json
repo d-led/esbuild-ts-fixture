@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "prettier": "prettier -w ."
+    },
+    "devDependencies": {
+        "@types/jquery": "^3.5.16",
+        "prettier": "^2.8.4"
+    }
+}
