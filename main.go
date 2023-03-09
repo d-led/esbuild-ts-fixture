@@ -63,7 +63,7 @@ func startWatching() *fsnotify.Watcher {
 }
 
 func getFS() http.FileSystem {
-	return http.FS(os.DirFS("dist"))
+	return http.FS(os.DirFS(dist))
 }
 
 func copyStatic() {
